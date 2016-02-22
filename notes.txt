@@ -1,0 +1,17 @@
+
+
+ PHP Editor Main Features:
+
+  - Dynamic linting/analysis while typing (missing semicolons, undefined variables, missing backets, etc)
+  - Dynamic code completion -> intelligent suggestions of scope variables
+  - Static code completion -> built-in php functions and variables
+
+  - Refactoring suggestions -> overcomplicated expressions, suboptimal code, unused elements
+
+ 
+ Links:
+   https://github.com/facebook/pfff/wiki/Pfff:PHP
+   http://www.icosaedro.it/phplint/
+   https://phpmd.org/
+
+   http://www.php-fig.org/psr/
