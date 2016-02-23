@@ -6,7 +6,7 @@
   - Dynamic code completion -> intelligent suggestions of scope variables
   - Static code completion -> built-in php functions and variables
 
-  - Refactoring suggestions -> overcomplicated expressions, suboptimal code, unused elements
+  - Code quality analysis / Refactoring suggestions -> overcomplicated expressions, suboptimal code, unused symbols
 
  
  Links:
@@ -15,3 +15,22 @@
    https://phpmd.org/
 
    http://www.php-fig.org/psr/
+
+
+
+
+  
+ VS Code Extension
+
+  - PHP test runner (ncrunch)
+  - Features listed above
+  - Search by symbol (classname, etc to find if not in file with same name)
+  - Find usages of variable / class
+  - Highlights matching symbols under cursor
+  - Project-wide refactoring (rename class, property, etc)
+  - Boilerplate code generation
+  - Code formatting (on typing ";" or "}")
+
+
+   https://code.visualstudio.com/docs/extensions/overview
+   https://visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF
