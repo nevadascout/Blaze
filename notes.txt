@@ -8,16 +8,6 @@
 
   - Code quality analysis / Refactoring suggestions -> overcomplicated expressions, suboptimal code, unused symbols
 
- 
- Links:
-   https://github.com/facebook/pfff/wiki/Pfff:PHP
-   http://www.icosaedro.it/phplint/
-   https://phpmd.org/
-
-   http://www.php-fig.org/psr/
-
-
-
 
   
  VS Code Extension
@@ -30,7 +20,32 @@
   - Project-wide refactoring (rename class, property, etc)
   - Boilerplate code generation
   - Code formatting (on typing ";" or "}")
+  - Type analysis (trying to return wrong type, etc)
+  - PHP-XML Documentation support
+
+  
+ Phases
+  1. Static language checking (missing semi-colons, bad types, variable not used, variable overrides outer scope, etc)
+  2. Intellisense / code completion (resharper style bold for custom props, etc)
+  3. StyleCop equivalent (PHPolice? -- Implements http://www.php-fig.org/psr/)
+  4. Test Runner (like ncrunch)
+
+
+ Other Stuff
+  - Fluent Assersions (http://www.fluentassertions.com/) (requires extension methods)
+  - Extension Methods (http://blog.maartenballiauw.be/post/2010/05/18/Extension-methods-for-PHP.aspx)
+
 
 
    https://code.visualstudio.com/docs/extensions/overview
    https://visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF
+
+
+
+ 
+ Links:
+   https://github.com/facebook/pfff/wiki/Pfff:PHP
+   http://www.icosaedro.it/phplint/
+   https://phpmd.org/
+
+   http://www.php-fig.org/psr/
